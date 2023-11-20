@@ -22,7 +22,5 @@ btn.addEventListener("click", (e) => {
     document.querySelector(".cvc").textContent = cvcLabel;
     document.querySelector(".container-white").style.display = "none";
     document.querySelector(".container-thanks").style.display = "flex";
-
-    // document.querySelector("form").style.display = "none";
   }
 });

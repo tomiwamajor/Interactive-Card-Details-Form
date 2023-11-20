@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1360px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .container-violet {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .front-card {
+    transform: translate(0rem, 39rem);
+    margin-left: 35rem;
+  }
+
+  .back-card {
+    transform: translate(0rem, -11rem);
+    margin-left: 68rem;
+  }
+
+  .cvc {
+    margin-left: 37rem;
+    transform: translate(0rem, -13.6rem);
+  }
+
+  .owner {
+    justify-content: start;
+    gap: 22rem;
+  }
+}
