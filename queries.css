@@ -70,6 +70,11 @@
     width: 50%;
   }
 
+  .cvc {
+    margin-left: 20rem;
+    transform: translate(0rem, -9.3rem);
+  }
+
   form {
     margin-left: 1rem;
     margin-right: 1rem;
