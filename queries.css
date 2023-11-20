@@ -52,10 +52,15 @@
 @media only screen and (max-width: 662px) {
   .front-card {
     margin-left: 2rem;
+    transform: translate(0rem, 26rem);
   }
 
   .front-card img {
     width: 50%;
+  }
+
+  .logo {
+    transform: translateY(-14rem);
   }
 
   .logo img {
@@ -64,6 +69,7 @@
 
   .back-card {
     margin-left: 9rem;
+    transform: translate(0rem, -6rem);
   }
 
   .back-card img {
@@ -78,5 +84,18 @@
   form {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .card-number {
+    transform: translateY(-13rem);
+    margin-left: 0.5rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .owner {
+    gap: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: none;
   }
 }
