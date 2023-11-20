@@ -73,4 +73,9 @@
   .logo img {
     width: 10%;
   }
+
+  .cvc {
+    margin-left: 23rem;
+    transform: translate(0rem, -9.6rem);
+  }
 }
