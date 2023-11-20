@@ -60,6 +60,10 @@
 }
 
 @media only screen and (max-width: 552px) {
+  .back-card {
+    margin-left: 10rem;
+  }
+
   .front-card,
   .back-card {
     width: 30rem;
