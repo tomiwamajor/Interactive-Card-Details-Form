@@ -54,8 +54,20 @@
     margin-left: 2rem;
   }
 
+  .front-card img {
+    width: 50%;
+  }
+
+  .logo img {
+    width: 10%;
+  }
+
   .back-card {
     margin-left: 9rem;
+  }
+
+  .back-card img {
+    width: 50%;
   }
 
   form {
