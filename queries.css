@@ -25,6 +25,41 @@
 
   .owner {
     justify-content: start;
-    gap: 22rem;
+    gap: 18rem;
+  }
+}
+
+@media only screen and (max-width: 1152px) {
+  .front-card {
+    margin-left: 20rem;
+  }
+
+  .back-card {
+    margin-left: 40rem;
+  }
+}
+
+@media only screen and (max-width: 931px) {
+  .front-card {
+    margin-left: 9rem;
+  }
+
+  .back-card {
+    margin-left: 20rem;
+  }
+}
+
+@media only screen and (max-width: 662px) {
+  .front-card {
+    margin-left: 2rem;
+  }
+
+  .back-card {
+    margin-left: 9rem;
+  }
+
+  form {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
