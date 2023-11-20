@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  outline-offset: 0.1rem;
+  box-shadow: 0 0 0 0.1rem hsl(278, 68%, 11%);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.container-violet {
+  background-image: url(./images/bg-main-desktop.png);
+  width: 100%;
+}
+
+/* front-card */
+.front-card {
+  /* margin-top: 7rem; */
+  transform: translate(7rem, 8rem);
+}
+
+.logo {
+  transform: translateY(-22rem);
+  margin-left: 2rem;
+}
+
+.card-number {
+  transform: translateY(-15rem);
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 1rem;
+}
+
+.owner {
+  display: flex;
+  transform: translateY(-12rem);
+  margin-left: 2rem;
+  margin-right: 4rem;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+}
+
+.author,
+.expiration {
+  color: hsl(0, 0%, 100%);
+}
+
+/* back-card */
+.back-card {
+  transform: translate(15rem, 3rem);
+}
+
+.cvc {
+  transform: translate(35rem, -13.6rem);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+}
+
+/* form */
+.container-white {
+  background-color: hsl(0, 0%, 100%);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 11fr 0.9fr 0.9fr 11fr;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: hsl(278, 68%, 11%);
+}
+
+input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  border: solid 0.1rem hsl(279, 6%, 55%);
+  font-family: "Space Grotesk", sans-serif;
+  cursor: pointer;
+}
+
+input::placeholder {
+  /* padding-left: 2rem; */
+  transform: translateX(2rem);
+  font-size: 1.6rem;
+  font-family: "Space Grotesk", sans-serif;
+  color: hsl(279, 6%, 55%);
+}
+
+.card-name {
+  margin-bottom: 2rem;
+}
+
+.error {
+  color: hsl(0, 100%, 66%);
+  font-size: 1.3rem;
+  transform: translateY(-1.6rem);
+  display: none;
+}
+
+.dateCVC {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+span {
+  display: flex;
+  gap: 2rem;
+}
+
+.monthYear,
+.security {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 3rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: hsl(278, 68%, 11%);
+  padding: 1.5rem 0rem;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+/* thank-you */
+.container-thanks {
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+h2 {
+  color: hsl(278, 68%, 11%);
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+}
+
+p {
+  color: hsl(279, 6%, 55%);
+  font-size: 1.6rem;
+}
+
+.complete {
+  background-color: hsl(278, 68%, 11%);
+  padding: 1.5rem 0rem;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  padding: 1.5rem 9rem;
+  border: none;
+  border-radius: 0.9rem;
+  font-family: "Space Grotesk", sans-serif;
+}
