@@ -103,4 +103,8 @@
     margin-right: 0;
     transform: translateY(-9rem);
   }
+
+  .front-card {
+    transform: translate(0rem, 28rem);
+  }
 }
