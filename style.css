@@ -79,8 +79,6 @@ html {
   height: 100vh;
   display: grid;
   grid-template-columns: 11fr 0.9fr 0.9fr 11fr;
-  justify-content: center;
-  align-items: center;
 }
 
 form {
