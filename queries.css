@@ -86,4 +86,21 @@
     margin-left: 23rem;
     transform: translate(0rem, -9.6rem);
   }
+
+  .card-number {
+    font-size: 1.4rem;
+    margin-left: 0.9rem;
+    letter-spacing: 0.6rem;
+  }
+
+  .author,
+  .expiration {
+    font-size: 1rem;
+  }
+
+  .owner {
+    margin-left: 0;
+    margin-right: 0;
+    transform: translateY(-9rem);
+  }
 }
