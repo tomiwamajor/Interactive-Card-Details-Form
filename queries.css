@@ -91,6 +91,7 @@
     font-size: 1.4rem;
     margin-left: 0.9rem;
     letter-spacing: 0.6rem;
+    transform: translateY(-12rem);
   }
 
   .author,
@@ -106,5 +107,16 @@
 
   .front-card {
     transform: translate(0rem, 28rem);
+  }
+
+  .logo {
+    transform: translateY(-14rem);
+  }
+
+  .back-card {
+    transform: translate(0rem, -08rem);
+  }
+
+  .container-white {
   }
 }
