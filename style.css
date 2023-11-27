@@ -23,8 +23,9 @@ html {
 }
 
 .container-violet {
-  background-image: url(./images/bg-main-mobile.png);
+  background-image: url(./images/bg-main-desktop.png);
   width: 100%;
+  background-repeat: no-repeat;
 }
 
 /* front-card */
@@ -154,6 +155,7 @@ span {
 /* thank-you */
 .container-thanks {
   display: none;
+  height: 100vh;
   /* display: flex; */
   flex-direction: column;
   justify-content: center;
